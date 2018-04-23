@@ -1,0 +1,44 @@
+@model SearchOrder
+@using (Html.BeginForm()) {
+    <table>
+        <tr>
+            <td>
+                Employee:
+                @Html.DevExpress().ComboBox(settings => {
+               settings.Name = "EmployeeID";         
+               settings.Properties.ValueType = typeof(int);
+               settings.Properties.ValueField = "EmployeeID";
+               
+               settings.Properties.Columns.Add("FirstName");
+               settings.Properties.Columns.Add("LastName");
+               settings.Properties.TextFormatString = "{0} {1}";
+               
+           }).BindList(Employee.GetEmployees()).Bind(Model.EmployeeID).GetHtml()
+            </td>
+            <td>
+                Date From:
+                @Html.DevExpress().DateEditFor(m => m.DateFrom).GetHtml()
+            </td>
+            <td>
+                Date To:
+                @Html.DevExpress().DateEditFor(m => m.DateTo).GetHtml()
+            </td>
+            <td>
+                @Html.DevExpress().Button(settings => {
+               settings.Name = "Search";
+               settings.Text = "Search";
+               settings.UseSubmitBehavior = true;
+           }).GetHtml()
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                @Html.Action("OrdersGridPartial", new {
+               EmployeeID = Model.EmployeeID,
+               DateFrom = Model.DateFrom,
+               DateTo = Model.DateTo
+           })
+            </td>
+        </tr>
+    </table>
+}
