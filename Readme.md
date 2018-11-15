@@ -1,3 +1,16 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/E4811/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/E4811/Controllers/HomeController.vb))
+* [DataHelper.cs](./CS/E4811/Models/DataHelper.cs) (VB: [DataHelper.vb](./VB/E4811/Models/DataHelper.vb))
+* [Employee.cs](./CS/E4811/Models/Employee.cs) (VB: [Employee.vb](./VB/E4811/Models/Employee.vb))
+* [Order.cs](./CS/E4811/Models/Order.cs) (VB: [Order.vb](./VB/E4811/Models/Order.vb))
+* [OrderDetail.cs](./CS/E4811/Models/OrderDetail.cs) (VB: [OrderDetail.vb](./VB/E4811/Models/OrderDetail.vb))
+* [SearchOrder.cs](./CS/E4811/Models/SearchOrder.cs) (VB: [SearchOrder.vb](./VB/E4811/Models/SearchOrder.vb))
+* [_OrderDetailsGridPartial.cshtml](./CS/E4811/Views/Home/_OrderDetailsGridPartial.cshtml)
+* [_OrdersGridPartial.cshtml](./CS/E4811/Views/Home/_OrdersGridPartial.cshtml)
+* **[Index.cshtml](./CS/E4811/Views/Home/Index.cshtml)**
+<!-- default file list end -->
 # GridView - How to bind a master-detail grid to search results
 
 
