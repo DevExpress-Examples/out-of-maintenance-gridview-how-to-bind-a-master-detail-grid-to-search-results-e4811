@@ -12,6 +12,9 @@
 * **[Index.cshtml](./CS/E4811/Views/Home/Index.cshtml)**
 <!-- default file list end -->
 # GridView - How to bind a master-detail grid to search results
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e4811)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how to pass search parameters to the master grid Partial View and pass the master row key to the detail grid Partial View to bind grids to correct data.</p><br />
