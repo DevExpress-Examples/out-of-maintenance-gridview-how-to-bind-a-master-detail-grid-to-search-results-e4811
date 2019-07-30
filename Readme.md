@@ -13,7 +13,7 @@
 <!-- default file list end -->
 # GridView - How to bind a master-detail grid to search results
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4811)**
+**[[Run Online]](https://codecentral.devexpress.com/e4811/)**
 <!-- run online end -->
 
 
