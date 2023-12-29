@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128549799/14.1.3%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4811)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -17,9 +12,6 @@
 * **[Index.cshtml](./CS/E4811/Views/Home/Index.cshtml)**
 <!-- default file list end -->
 # GridView - How to bind a master-detail grid to search results
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4811/)**
-<!-- run online end -->
 
 
 <p>This example demonstrates how to pass search parameters to the master grid Partial View and pass the master row key to the detail grid Partial View to bind grids to correct data.</p><br />
